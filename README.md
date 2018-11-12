@@ -24,6 +24,9 @@ Sometimes, step 3 does not work, in particular after previously failed attempts.
 right-click to `configure->convert to maven project`.  If that fails, the best thing seems to remove all 
 pieces of the failed attempt in the directory and start over.
 
+
+
+
 ### Import into IntelliJ
 
 ... todo ...

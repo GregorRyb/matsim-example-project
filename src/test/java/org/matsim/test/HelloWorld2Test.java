@@ -43,8 +43,9 @@ public class HelloWorld2Test {
 			config.controler().setOverwriteFileSetting(OverwriteFileSetting.overwriteExistingFiles);
 			config.controler().setWriteEventsInterval(1);
 			Scenario scenario = ScenarioUtils.loadScenario(config);
-			Controler controler = new Controler(config);
+			Controler controler = new Controler(scenario);
 			controler.run();
+			
 			Config config2 = ConfigUtils.createConfig();
 			config2.plans().setInputFile(utils.getInputDirectory()+"/output_plans.xml.gz");
 			Scenario scenario2 = ScenarioUtils.loadScenario(config2);

@@ -6,6 +6,7 @@ import java.net.URL;
 
 import javax.swing.tree.ExpandVetoException;
 
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.matsim.api.core.v01.Scenario;
@@ -22,8 +23,6 @@ import org.matsim.examples.ExamplesUtils;
 import org.matsim.testcases.MatsimTestUtils;
 import org.matsim.utils.eventsfilecomparison.EventsFileComparator;
 import org.matsim.utils.eventsfilecomparison.EventsFileComparator.Result;
-
-import junit.framework.Assert;
 
 public class HelloWorld2Test {
 

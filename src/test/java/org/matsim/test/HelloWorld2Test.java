@@ -6,6 +6,7 @@ import java.net.URL;
 
 import javax.swing.tree.ExpandVetoException;
 
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.matsim.api.core.v01.Scenario;
@@ -22,8 +23,6 @@ import org.matsim.examples.ExamplesUtils;
 import org.matsim.testcases.MatsimTestUtils;
 import org.matsim.utils.eventsfilecomparison.EventsFileComparator;
 import org.matsim.utils.eventsfilecomparison.EventsFileComparator.Result;
-
-import junit.framework.Assert;
 
 public class HelloWorld2Test {
 
@@ -44,8 +43,9 @@ public class HelloWorld2Test {
 			config.controler().setOverwriteFileSetting(OverwriteFileSetting.overwriteExistingFiles);
 			config.controler().setWriteEventsInterval(1);
 			Scenario scenario = ScenarioUtils.loadScenario(config);
-			Controler controler = new Controler(config);
+			Controler controler = new Controler(scenario);
 			controler.run();
+			
 			Config config2 = ConfigUtils.createConfig();
 			config2.plans().setInputFile(utils.getInputDirectory()+"/output_plans.xml.gz");
 			Scenario scenario2 = ScenarioUtils.loadScenario(config2);

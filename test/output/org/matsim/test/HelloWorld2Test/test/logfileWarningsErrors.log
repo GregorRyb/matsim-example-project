@@ -1,8 +1,8 @@
-2018-11-19 11:39:36,439  WARN ControlerConfigGroup:365 setting overwriting behavior to overwriteExistingFiles
-2018-11-19 11:39:36,439  WARN ControlerConfigGroup:366 this is not recommended, as it might result in a directory containing output from several model runs
-2018-11-19 11:39:36,440  WARN ControlerConfigGroup:367 prefer the options deleteDirectoryIfExists or failIfDirectoryExists
-2018-11-19 11:39:36,622  WARN QueueWithBuffer:377 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2018-11-19 11:39:36,624  WARN QueueWithBuffer:377 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2018-11-19 11:39:36,625  WARN QueueWithBuffer:377 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2018-11-19 11:39:36,626  WARN QueueWithBuffer:377 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2018-11-19 11:39:36,627  WARN QueueWithBuffer:377 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-11-20 15:54:08,980  WARN ControlerConfigGroup:365 setting overwriting behavior to overwriteExistingFiles
+2018-11-20 15:54:08,983  WARN ControlerConfigGroup:366 this is not recommended, as it might result in a directory containing output from several model runs
+2018-11-20 15:54:08,983  WARN ControlerConfigGroup:367 prefer the options deleteDirectoryIfExists or failIfDirectoryExists
+2018-11-20 15:54:09,222  WARN QueueWithBuffer:377 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-11-20 15:54:09,225  WARN QueueWithBuffer:377 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-11-20 15:54:09,226  WARN QueueWithBuffer:377 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-11-20 15:54:09,227  WARN QueueWithBuffer:377 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-11-20 15:54:09,228  WARN QueueWithBuffer:377 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.

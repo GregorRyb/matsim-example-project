@@ -34,7 +34,7 @@ public class HelloWorld2Test {
 		
 		try {
 			//Config config = ConfigUtils.createConfig();
-			
+		
 			URL url = ExamplesUtils.getTestScenarioURL( "equil");
 			URL configURL = IOUtils.newUrl(url,"config.xml");
 			Config config = ConfigUtils.loadConfig(configURL);
